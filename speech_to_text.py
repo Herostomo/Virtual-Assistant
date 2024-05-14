@@ -13,8 +13,4 @@ def speech_to_text():
         print("sorry , not able to hear you")    
     except sr.RequestError:
         print("RequestError")
-
-
-
-
 speech_to_text()
